@@ -1,0 +1,20 @@
+**(DumpTabuleiro)** estado inicial
+  ===========================
+  .X..
+  ..X.
+  XXX.
+  ....
+  ===========================
+**(DumpTabuleiro)** estado final
+  ===========================
+  ....
+  ..X.
+  ...X
+  .XXX
+  ===========================
+ Resultado correto com  4 imagens
+Application 197214 resources: utime ~0s, stime ~1s
+
+real	0m0.260s
+user	0m0.004s
+sys	0m0.008s

@@ -1,0 +1,30 @@
+Inicial::CPU; trecho [1:4, 1:4] do tabuleiro
+=====
+.X..
+..X.
+XXX.
+....
+=====
+Final::CPU; trecho [509:512, 509:512] do tabuleiro
+=====
+....
+..X.
+...X
+.XXX
+=====
+**RESULTADO CORRETO NA CPU**
+CPU tam=512; tempos: init=0.002330, comp=4.117642, fim=0.000374, tot=4.120346 
+Final::GPU; trecho [509:512, 509:512] do tabuleiro
+=====
+....
+..X.
+...X
+.XXX
+=====
+**RESULTADO CORRETO NA GPU**
+GPU tam=512; tempos: init=1.770781, comp=0.532513, fim=0.002361, tot=2.305655 
+
+real	0m6.473s
+user	0m4.664s
+sys	0m1.652s
+DONE

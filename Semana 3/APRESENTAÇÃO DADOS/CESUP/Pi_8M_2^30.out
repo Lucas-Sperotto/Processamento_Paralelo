@@ -1,0 +1,77 @@
+
+OBTEVE ID nproc 8  theproc 7  
+
+OBTEVE ID nproc 8  theproc 0  
+MESTRE mandou MSG1 para 1 
+MESTRE mandou MSG2 para 1 
+MESTRE mandou MSG3 para 1 
+MESTRE mandou MSG1 para 2 
+MESTRE mandou MSG2 para 2 
+MESTRE mandou MSG3 para 2 
+MESTRE mandou MSG1 para 3 
+MESTRE mandou MSG2 para 3 
+MESTRE mandou MSG3 para 3 
+MESTRE mandou MSG1 para 4 
+MESTRE mandou MSG2 para 4 
+MESTRE mandou MSG3 para 4 
+MESTRE mandou MSG1 para 5 
+MESTRE mandou MSG2 para 5 
+MESTRE mandou MSG3 para 5 
+MESTRE mandou MSG1 para 6 
+MESTRE mandou MSG2 para 6 
+MESTRE mandou MSG3 para 6 
+MESTRE mandou MSG1 para 7 
+MESTRE mandou MSG2 para 7 
+MESTRE mandou MSG3 para 7 
+
+OBTEVE ID nproc 8  theproc 3  
+ESCRAVO 7 recebeu MSG1 de 0 
+ESCRAVO 7 recebeu MSG2 de 0 
+ESCRAVO 7 recebeu MSG3 de 0 
+ESCRAVO 3 recebeu MSG1 de 0 
+ESCRAVO 3 recebeu MSG2 de 0 
+ESCRAVO 3 recebeu MSG3 de 0 
+
+OBTEVE ID nproc 8  theproc 1  
+ESCRAVO 1 recebeu MSG1 de 0 
+ESCRAVO 1 recebeu MSG2 de 0 
+ESCRAVO 1 recebeu MSG3 de 0 
+
+OBTEVE ID nproc 8  theproc 4  
+ESCRAVO 4 recebeu MSG1 de 0 
+ESCRAVO 4 recebeu MSG2 de 0 
+ESCRAVO 4 recebeu MSG3 de 0 
+
+OBTEVE ID nproc 8  theproc 5  
+ESCRAVO 5 recebeu MSG1 de 0 
+ESCRAVO 5 recebeu MSG2 de 0 
+ESCRAVO 5 recebeu MSG3 de 0 
+
+OBTEVE ID nproc 8  theproc 2  
+ESCRAVO 2 recebeu MSG1 de 0 
+ESCRAVO 2 recebeu MSG2 de 0 
+ESCRAVO 2 recebeu MSG3 de 0 
+
+OBTEVE ID nproc 8  theproc 6  
+ESCRAVO 6 recebeu MSG1 de 0 
+ESCRAVO 6 recebeu MSG2 de 0 
+ESCRAVO 6 recebeu MSG3 de 0 
+ESCRAVO 3 mandou MSG4 para 0 
+ESCRAVO 4 mandou MSG4 para 0 
+ESCRAVO 5 mandou MSG4 para 0 
+ESCRAVO 2 mandou MSG4 para 0 
+ESCRAVO 1 mandou MSG4 para 0 
+ESCRAVO 6 mandou MSG4 para 0 
+MESTRE recebeu MSG4 de 1 
+MESTRE recebeu MSG4 de 2 
+MESTRE recebeu MSG4 de 3 
+MESTRE recebeu MSG4 de 4 
+MESTRE recebeu MSG4 de 5 
+MESTRE recebeu MSG4 de 6 
+ESCRAVO 7 mandou MSG4 para 0 
+MESTRE recebeu MSG4 de 7 
+pi=3.1416365, rel error   0.0014%, 1 procs, 2^30 points, 13.531890(s) exec time
+
+real	0m14.736s
+user	1m42.166s
+sys	0m0.435s

@@ -1,0 +1,10 @@
+INICIA
+OBTEVE ID nproc 0  theproc 1  
+MESTRE ID nproc 0  theproc 1  
+MESTRE VAI MANDAR MSG
+pi=3.1415903, rel error   0.0001%, 1 procs, 2^30 points, 43.224983(s) exec time
+Application 112866 resources: utime ~43s, stime ~0s
+
+real	0m43.309s
+user	0m0.008s
+sys	0m0.000s

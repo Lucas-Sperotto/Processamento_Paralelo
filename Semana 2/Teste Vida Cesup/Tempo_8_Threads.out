@@ -1,0 +1,17 @@
+-unique /opt/sge6_2u5/default/spool/r01n13/active_jobs/25551.1/pe_hostfile
+r01n13 7 p_thin_small.q@r01n13 UNDEFINED
+
+***execucao com 8 threads***
+
+   tamanho       tempo
+        32     0.00310
+        64     0.02540
+       128     0.20790
+       256     1.83380
+       512    13.88460
+      1024   115.76710
+
+real	2m11.903s
+user	2m7.716s
+sys	0m0.013s
+rm: cannot remove `/tmp/25551.1.p_thin_small.q/rsh': No such file or directory

@@ -1,0 +1,15 @@
+CALL MPI_COMM_SIZE(MPI_COMM_WORLD, numProc , ierr)
+CALL MPI_COMM_RANK(MPI_COMM_WORLD, esteProc, ierr)
+tamLocal = tam/numProc
+pri = esteProc*tamLocal + 1
+IF (esteProc == numProc-1) THEN
+ult = tam
+ELSE
+ult = (esteProc+1)*tamLocal
+END IF
+DO i = pri, ult
+vec(i) = REAL(i - tam/2) ** 2
+END DO
+DO i = pri, ult
+vec(i) = SQRT(vec(i))
+END D

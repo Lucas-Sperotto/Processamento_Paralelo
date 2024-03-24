@@ -1,0 +1,40 @@
+Arquivo 1
+p01280@crow:~> Tempo
+
+***execucao com 1 threads***
+
+   tamanho       tempo
+        32     0.00800
+        64     0.07204
+       128     0.57228
+ls       256     4.53024
+       512    37.77866
+      1024   300.11829
+p01280@crow:~> export OMP_NUM_THREADS=4
+p01280@crow:~> Tempo
+Warning: OMP_NUM_THREADS or NCPUS (4) greater than available cpus (2)
+
+***execucao com 4 threads***
+
+   tamanho       tempo
+        32     1.06453
+        64     1.92495
+       128     3.62579
+       256    10.28508
+       512    47.43944
+      1024   200.89526
+Warning: omp_set_num_threads (4) greater than available cpus (2)
+
+p01280@crow:~> export OMP_NUM_THREADS=2
+p01280@crow:~> Tempo
+
+***execucao com 2 threads***
+
+   tamanho       tempo
+        32     0.00400
+        64     0.03202
+       128     0.30015
+       256     2.39318
+       512    18.82930
+      1024   151.43883
+

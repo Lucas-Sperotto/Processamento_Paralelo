@@ -1,0 +1,7 @@
+-catch_rsh /opt/sge6_2u5/default/spool/r01n31/active_jobs/25716.1/pe_hostfile
+r01n31 1 tesla.q@r01n31 UNDEFINED
+pi=3.1415903, rel error   0.0001%, 1 procs, 2^30 points, 99.688560(s) exec time
+
+real	1m39.722s
+user	1m39.673s
+sys	0m0.011s

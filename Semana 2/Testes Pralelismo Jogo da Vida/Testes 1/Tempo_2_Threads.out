@@ -1,0 +1,15 @@
+
+***execucao com 2 threads***
+
+   tamanho       tempo
+        32     0.00382
+        64     0.03141
+       128     0.25610
+       256     2.06827
+       512    16.65677
+      1024   134.10254
+Application 106075 resources: utime ~306s, stime ~0s
+
+real	2m33.296s
+user	0m0.000s
+sys	0m0.008s

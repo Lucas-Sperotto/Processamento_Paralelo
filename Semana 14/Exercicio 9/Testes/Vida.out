@@ -1,0 +1,21 @@
+Inicial; trecho [1:4, 1:4] do tabuleiro
+=====
+.X..
+..X.
+XXX.
+....
+=====
+Final; trecho [5:8, 5:8] do tabuleiro
+=====
+....
+..X.
+...X
+.XXX
+=====
+**RESULTADO CORRETO NA CPU**
+tam=8; tempos: init=0.000039, comp=0.000015, fim=0.000003, tot=0.000057 
+
+real	0m0.006s
+user	0m0.001s
+sys	0m0.003s
+DONE

@@ -1,0 +1,14 @@
+***Execucao com 6 Processos***
+
+    Tamanho          Tempo
+        32      0.00059000001056 
+        64      0.00196800008416 
+       128      0.01257400028408 
+       256      0.09246700257063 
+       512      0.72022402286530 
+      1024      5.73687410354614 
+Application 159095 resources: utime ~40s, stime ~0s
+
+real	0m6.763s
+user	0m0.008s
+sys	0m0.012s

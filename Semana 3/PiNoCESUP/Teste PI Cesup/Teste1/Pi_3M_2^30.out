@@ -1,0 +1,29 @@
+-catch_rsh /opt/sge6_2u5/default/spool/r01n30/active_jobs/25720.1/pe_hostfile
+r01n30 3 tesla.q@r01n30 UNDEFINED
+
+OBTEVE ID nproc 2  theproc 3  
+
+OBTEVE ID nproc 1  theproc 3  
+
+OBTEVE ID nproc 0  theproc 3  
+MESTRE mandou MSG1 para 1 
+MESTRE mandou MSG2 para 1 
+MESTRE mandou MSG3 para 1 
+MESTRE mandou MSG1 para 2 
+MESTRE mandou MSG2 para 2 
+MESTRE mandou MSG3 para 2 
+ESCRAVO 1 recebeu MSG1 de 0 
+ESCRAVO 1 recebeu MSG2 de 0 
+ESCRAVO 1 recebeu MSG3 de 0 
+ESCRAVO 2 recebeu MSG1 de 0 
+ESCRAVO 2 recebeu MSG2 de 0 
+ESCRAVO 2 recebeu MSG3 de 0 
+ESCRAVO 1 mandou MSG4 para 0 
+MESTRE recebeu MSG4 de 1 
+MESTRE recebeu MSG4 de 2 
+ESCRAVO 2 mandou MSG4 para 0 
+pi=3.1416454, rel error   0.0017%, 1 procs, 2^30 points, 28.799973(s) exec time
+
+real	0m29.852s
+user	1m24.653s
+sys	0m0.047s

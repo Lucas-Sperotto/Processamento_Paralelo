@@ -1,0 +1,58 @@
+
+
+
+
+OBTEVE ID nproc 6  theproc 0  
+
+MESTRE mandou MSG1 para 1 
+
+OBTEVE ID nproc 6  theproc 1  
+OBTEVE ID nproc 6  theproc 2  
+OBTEVE ID nproc 6  theproc 3  
+OBTEVE ID nproc 6  theproc 4  
+MESTRE mandou MSG2 para 1 
+MESTRE mandou MSG3 para 1 
+OBTEVE ID nproc 6  theproc 5  
+MESTRE mandou MSG1 para 2 
+ESCRAVO 2 recebeu MSG1 de 0 
+ESCRAVO 1 recebeu MSG1 de 0 
+ESCRAVO 2 recebeu MSG2 de 0 
+MESTRE mandou MSG2 para 2 
+ESCRAVO 1 recebeu MSG2 de 0 
+ESCRAVO 2 recebeu MSG3 de 0 
+MESTRE mandou MSG3 para 2 
+ESCRAVO 1 recebeu MSG3 de 0 
+MESTRE mandou MSG1 para 3 
+MESTRE mandou MSG2 para 3 
+ESCRAVO 3 recebeu MSG1 de 0 
+MESTRE mandou MSG3 para 3 
+ESCRAVO 3 recebeu MSG2 de 0 
+ESCRAVO 4 recebeu MSG1 de 0 
+MESTRE mandou MSG1 para 4 
+MESTRE mandou MSG2 para 4 
+ESCRAVO 4 recebeu MSG2 de 0 
+ESCRAVO 3 recebeu MSG3 de 0 
+MESTRE mandou MSG3 para 4 
+ESCRAVO 4 recebeu MSG3 de 0 
+MESTRE mandou MSG1 para 5 
+MESTRE mandou MSG2 para 5 
+ESCRAVO 5 recebeu MSG1 de 0 
+MESTRE mandou MSG3 para 5 
+ESCRAVO 5 recebeu MSG2 de 0 
+ESCRAVO 5 recebeu MSG3 de 0 
+ESCRAVO 2 mandou MSG4 para 0 
+ESCRAVO 3 mandou MSG4 para 0 
+ESCRAVO 1 mandou MSG4 para 0 
+ESCRAVO 4 mandou MSG4 para 0 
+MESTRE recebeu MSG4 de 1 
+MESTRE recebeu MSG4 de 2 
+MESTRE recebeu MSG4 de 3 
+MESTRE recebeu MSG4 de 4 
+ESCRAVO 5 mandou MSG4 para 0 
+MESTRE recebeu MSG4 de 5 
+pi=3.1416473, rel error   0.0017%, 1 procs, 2^30 points, 8.168634(s) exec time
+Application 112928 resources: utime ~49s, stime ~0s
+
+real	0m8.324s
+user	0m0.008s
+sys	0m0.012s

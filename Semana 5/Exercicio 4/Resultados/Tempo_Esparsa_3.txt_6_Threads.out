@@ -1,0 +1,7 @@
+Esparsa_3.txt_6 Threads
+Norma2 = 149.305054, Tempo = 0.110116 (s)
+Application 147561 resources: utime ~1s, stime ~0s
+
+real	0m1.329s
+user	0m0.000s
+sys	0m0.012s

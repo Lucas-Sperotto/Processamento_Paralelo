@@ -1,0 +1,7 @@
+
+OBTEVE ID nproc 1  theproc 0  
+pi=3.1415903, rel error   0.0001%, 1 procs, 2^30 points, 77.383224(s) exec time
+
+real	1m17.629s
+user	1m17.358s
+sys	0m0.032s

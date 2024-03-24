@@ -1,0 +1,2 @@
+-catch_rsh /opt/sge6_2u5/default/spool/r01n32/active_jobs/25719.1/pe_hostfile
+r01n32 1 tesla.q@r01n32 UNDEFINED

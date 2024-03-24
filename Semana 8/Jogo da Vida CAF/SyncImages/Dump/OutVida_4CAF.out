@@ -1,0 +1,41 @@
+**(DumpTabuleiro)** estado inicial
+  ===========================
+  .X..
+  ..X.
+  XXX.
+  ....
+  ===========================
+**(DumpTabuleiro)**geracao 01
+  ===========================
+  ....
+  X.X.
+  .XX.
+  .X..
+  ===========================
+**(DumpTabuleiro)**geracao 02
+  ===========================
+  ....
+  ..X.
+  X.X.
+  .XX.
+  ===========================
+**(DumpTabuleiro)**geracao 03
+  ===========================
+  ....
+  .X..
+  ..XX
+  .XX.
+  ===========================
+**(DumpTabuleiro)**geracao 04
+  ===========================
+  ....
+  ..X.
+  ...X
+  .XXX
+  ===========================
+ Resultado correto com  4 imagens
+Application 197220 resources: utime ~0s, stime ~1s
+
+real	0m0.264s
+user	0m0.000s
+sys	0m0.004s

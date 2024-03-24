@@ -1,0 +1,79 @@
+-catch_rsh /opt/sge6_2u5/default/spool/r01n30/active_jobs/25726.1/pe_hostfile
+r01n30 8 tesla.q@r01n30 UNDEFINED
+
+OBTEVE ID nproc 3  theproc 8  
+
+OBTEVE ID nproc 1  theproc 8  
+
+OBTEVE ID nproc 4  theproc 8  
+
+OBTEVE ID nproc 5  theproc 8  
+
+OBTEVE ID nproc 7  theproc 8  
+
+OBTEVE ID nproc 0  theproc 8  
+MESTRE mandou MSG1 para 1 
+MESTRE mandou MSG2 para 1 
+MESTRE mandou MSG3 para 1 
+MESTRE mandou MSG1 para 2 
+MESTRE mandou MSG2 para 2 
+MESTRE mandou MSG3 para 2 
+MESTRE mandou MSG1 para 3 
+MESTRE mandou MSG2 para 3 
+MESTRE mandou MSG3 para 3 
+MESTRE mandou MSG1 para 4 
+MESTRE mandou MSG2 para 4 
+MESTRE mandou MSG3 para 4 
+MESTRE mandou MSG1 para 5 
+MESTRE mandou MSG2 para 5 
+MESTRE mandou MSG3 para 5 
+MESTRE mandou MSG1 para 6 
+MESTRE mandou MSG2 para 6 
+MESTRE mandou MSG3 para 6 
+MESTRE mandou MSG1 para 7 
+MESTRE mandou MSG2 para 7 
+MESTRE mandou MSG3 para 7 
+ESCRAVO 7 recebeu MSG1 de 0 
+ESCRAVO 7 recebeu MSG2 de 0 
+ESCRAVO 7 recebeu MSG3 de 0 
+ESCRAVO 3 recebeu MSG1 de 0 
+ESCRAVO 3 recebeu MSG2 de 0 
+ESCRAVO 3 recebeu MSG3 de 0 
+ESCRAVO 1 recebeu MSG1 de 0 
+ESCRAVO 1 recebeu MSG2 de 0 
+ESCRAVO 1 recebeu MSG3 de 0 
+ESCRAVO 4 recebeu MSG1 de 0 
+ESCRAVO 4 recebeu MSG2 de 0 
+ESCRAVO 4 recebeu MSG3 de 0 
+ESCRAVO 5 recebeu MSG1 de 0 
+ESCRAVO 5 recebeu MSG2 de 0 
+ESCRAVO 5 recebeu MSG3 de 0 
+
+OBTEVE ID nproc 6  theproc 8  
+ESCRAVO 6 recebeu MSG1 de 0 
+ESCRAVO 6 recebeu MSG2 de 0 
+ESCRAVO 6 recebeu MSG3 de 0 
+
+OBTEVE ID nproc 2  theproc 8  
+ESCRAVO 2 recebeu MSG1 de 0 
+ESCRAVO 2 recebeu MSG2 de 0 
+ESCRAVO 2 recebeu MSG3 de 0 
+ESCRAVO 4 mandou MSG4 para 0 
+ESCRAVO 3 mandou MSG4 para 0 
+ESCRAVO 2 mandou MSG4 para 0 
+ESCRAVO 5 mandou MSG4 para 0 
+ESCRAVO 6 mandou MSG4 para 0 
+ESCRAVO 1 mandou MSG4 para 0 
+MESTRE recebeu MSG4 de 1 
+MESTRE recebeu MSG4 de 2 
+MESTRE recebeu MSG4 de 3 
+MESTRE recebeu MSG4 de 4 
+MESTRE recebeu MSG4 de 5 
+MESTRE recebeu MSG4 de 6 
+ESCRAVO 7 mandou MSG4 para 0 
+MESTRE recebeu MSG4 de 7 
+pi=3.1416365, rel error   0.0014%, 1 procs, 2^30 points, 11.324816(s) exec time
+
+real	0m13.459s
+user	1m25.502s
+sys	0m0.373s

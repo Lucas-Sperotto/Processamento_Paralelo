@@ -1,0 +1,6 @@
+pi=3.1415903, rel error   0.0001%, 1 procs, 2^30 points, 52.390648(s) exec time
+Application 112974 resources: utime ~52s, stime ~0s
+
+real	0m52.482s
+user	0m0.000s
+sys	0m0.016s

@@ -1,0 +1,19 @@
+-unique /opt/sge6_2u5/default/spool/r01n13/active_jobs/25550.1/pe_hostfile
+r01n13 7 p_thin_small.q@r01n13 UNDEFINED
+OMP: Warning #41: OMP_NUM_THREADS value "" is too small.
+OMP: Info #113: OMP_NUM_THREADS value "1" will be used.
+
+***execucao com 1 threads***
+
+   tamanho       tempo
+        32     0.00300
+        64     0.02550
+       128     0.20840
+       256     1.68020
+       512    14.25070
+      1024   115.94670
+
+real	2m12.192s
+user	2m8.493s
+sys	0m0.012s
+rm: cannot remove `/tmp/25550.1.p_thin_small.q/rsh': No such file or directory
