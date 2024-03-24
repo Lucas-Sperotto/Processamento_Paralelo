@@ -53,7 +53,7 @@ contains
 
 
   ! DumpTabuleiro: Imprime trecho do tabuleiro entre
-  !                as posicoes (pri,pri) e (ult,ult)
+  !                as posicoes (pri, pri) e (ult, ult)
   !                X representa celula viva
   !                . representa celula morta
   subroutine DumpTabuleiro(tam, tabul, pri, ult, str)
