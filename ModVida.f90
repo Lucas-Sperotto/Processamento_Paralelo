@@ -9,12 +9,10 @@ contains
   !          tabulIn. Os tabuleiros tem tam-1 x tam-1 celulas
   !          internas vivas ou mortas. O tabuleiro eh orlado 
   !          por celulas eternamente mortas.
-
-
   subroutine UmaVida (tam, tabulIn, tabulOut)
-    integer, intent(in ) :: tam
-    logical, intent(in ) :: tabulIn(0:tam+1,0:tam+1)
-    logical, intent(out) :: tabulOut(0:tam+1,0:tam+1)
+    integer, intent(in) :: tam
+    logical, intent(in) :: tabulIn(0:tam + 1, 0:tam + 1)
+    logical, intent(out) :: tabulOut(0:tam + 1, 0:tam + 1)
 
     integer :: i
     integer :: j
@@ -22,7 +20,7 @@ contains
 
     ! percorre o tabuleiro determinando o proximo
     ! estado de cada celula
-!$OMP PARALLEL DO FIRSTPRIVATE (i,j,vizviv)
+!$OMP PARALLEL DO FIRSTPRIVATE (i, j, vizviv)
 
     do j = 1, tam
 
@@ -31,20 +29,20 @@ contains
           ! quantos vizinhos vivos
 
           vizviv = count( (/&
-               tabulIn(i-1,j-1), tabulIn(i-1,j), tabulIn(i-1,j+1), &
-               tabulIn(i  ,j-1),                 tabulIn(i  ,j+1), &
-               tabulIn(i+1,j-1), tabulIn(i+1,j), tabulIn(i+1,j+1) /) )
+               tabulIn(i - 1, j - 1), tabulIn(i - 1, j), tabulIn(i - 1, j + 1), &
+               tabulIn(i  , j - 1),                 tabulIn(i  ,j + 1), &
+               tabulIn(i + 1, j - 1), tabulIn( i + 1, j), tabulIn( i + 1, j + 1) /) )
 
           ! impoe regra do proximo estado
 
-          if (tabulIn(i,j) .and. vizviv < 2) then
-             tabulOut(i,j) = .false.
-          else if (tabulIn(i,j) .and. vizviv > 3) then
-             tabulOut(i,j) = .false.
-          else if (.not. tabulIn(i,j) .and. vizviv == 3) then
-             tabulOut(i,j) = .true.
+          if (tabulIn(i, j) .and. vizviv < 2) then
+             tabulOut(i, j) = .false.
+          else if (tabulIn(i, j) .and. vizviv > 3) then
+             tabulOut(i, j) = .false.
+          else if (.not. tabulIn(i, j) .and. vizviv == 3) then
+             tabulOut(i, j) = .true.
           else
-             tabulOut(i,j) = tabulIn(i,j)
+             tabulOut(i, j) = tabulIn(i, j)
           end if
        end do
 
@@ -58,12 +56,10 @@ contains
   !                as posicoes (pri,pri) e (ult,ult)
   !                X representa celula viva
   !                . representa celula morta
-
-
   subroutine DumpTabuleiro(tam, tabul, pri, ult, str)
     integer, intent(in) :: pri, ult
     integer, intent(in) :: tam
-    logical, intent(in) :: tabul(0:tam+1,0:tam+1)
+    logical, intent(in) :: tabul(0:tam + 1, 0:tam + 1)
     character(len=*), optional, intent(in) :: str
 
     integer :: i
@@ -80,7 +76,7 @@ contains
 
     do i = pri, ult
        do j = pri, ult
-          if (tabul(i,j)) then
+          if (tabul(i, j)) then
              linha(j) = "X"
           else
              linha(j) = "."
@@ -94,48 +90,41 @@ contains
   end subroutine DumpTabuleiro
 
 
-
   ! InitTabuleiros: Inicializa dois tabuleiros:
   !                tabulIn com um veleiro 
   !                tabulOut com celulas mortas
-
-
-
   subroutine InitTabuleiros(tam, tabulIn, tabulOut)
     integer, intent(in) :: tam
-    logical, intent(out) :: tabulIn(0:tam+1,0:tam+1)
-    logical, intent(out) :: tabulOut(0:tam+1,0:tam+1)
+    logical, intent(out) :: tabulIn(0:tam + 1, 0:tam + 1)
+    logical, intent(out) :: tabulOut(0:tam + 1, 0:tam + 1)
 
     tabulIn = .false.
     tabulOut = .false.
 
-    tabulIn(1,2)=.true.
-    tabulIn(2,3)=.true.
-    tabulIn(3,1)=.true.
-    tabulIn(3,2)=.true.
-    tabulIn(3,3)=.true.
+    tabulIn(1, 2) = .true.
+    tabulIn(2, 3) = .true.
+    tabulIn(3, 1) = .true.
+    tabulIn(3, 2) = .true.
+    tabulIn(3, 3) = .true.
   end subroutine InitTabuleiros
 
 
   ! Correto: verifica se o veleiro estah corretamente
   !          representado no canto inferior direito do
   !          tabuleiro, onde deve estar na ultima iteracao
-
-
   logical function Correto (tam, tabulIn)
-    integer, intent(in ) :: tam
-    logical, intent(in ) :: tabulIn(0:tam+1,0:tam+1)
+    integer, intent(in) :: tam
+    logical, intent(in) :: tabulIn(0:tam + 1, 0:tam + 1)
 
     integer :: quantosVerdadeiros
-
 
     quantosVerdadeiros = count(TabulIn)
 
     Correto = (quantosVerdadeiros == 5) .and. &
-         tabulIn(tam-2,tam-1) .and. &
-         tabulIn(tam-1,tam  ) .and. &
-         tabulIn(tam  ,tam-2) .and. &
-         tabulIn(tam  ,tam-1) .and. &
-         tabulIn(tam  ,tam  )
+         tabulIn(tam - 2, tam - 1) .and. &
+         tabulIn(tam - 1, tam) .and. &
+         tabulIn(tam, tam - 2) .and. &
+         tabulIn(tam, tam - 1) .and. &
+         tabulIn(tam, tam)
   end function Correto
 end module JogoDaVida
